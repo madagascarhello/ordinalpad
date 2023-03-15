@@ -4526,7 +4526,7 @@ ol {
   color: #fd7237;
 }
 
-.claim-section-right a {
+.claim-btn {
   border: none;
   border-radius: 5px;
   text-decoration: none;
@@ -4541,16 +4541,10 @@ ol {
   .claim-section-right {
     margin-top: -10rem;
   }
-
-  .welcome {
-    margin-top: 25rem;
-  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-  .welcome {
-    margin-top: 10rem;
-  }
+  
 }
 
 
