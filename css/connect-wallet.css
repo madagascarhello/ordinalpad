@@ -1,0 +1,153 @@
+body {
+    /* background-color: #191919; */
+    background: url(/ordinalbtc.org/images/bg_3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 10rem;
+    /* background-color: red; */
+}
+
+.main-content {
+    width: 100%;
+    height: 80vh;
+    background-color: inherit;
+    margin-top: 13rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 44px 16px;
+}
+
+.fa-arrow-left {
+    color: #fcfcfd;
+}
+
+.main-content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content-top span {
+    display: flex;
+}
+
+.line-1 {
+    width: 80px;
+    height: 4px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-right: 5px;
+}
+
+.line-2 {
+    width: 80px;
+    height: 3px;
+    border-radius: 8px;
+    background-color: #ffffff !important;
+    margin-right: 5px;
+}
+
+.line-3 {
+    width: 80px;
+    height: 3px;
+    border-radius: 8px;
+    background-color: #667085;
+}
+
+.line-2 {
+    width: 80px;
+    height: 3px;
+    border-radius: 8px;
+    background-color: red;
+}
+
+.main-content-top button {
+    color: #667085;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    /* margin-top: 13px; */
+    border: none;
+    background-color: inherit;
+
+}
+
+.main-content-top p {
+    color: #fd7237;
+    cursor: pointer;
+}
+
+.main-content-middle h1 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.main-content-middle p {
+    color: #9c9da9;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 25px 0px 25px;
+}
+
+textarea {
+    background-color: #fb7839;
+    border: 1px solid #42434f;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #fff;
+}
+
+textarea:active,
+textarea:focus {
+    border: 1px solid #42434f;
+    outline: none !important;
+}
+
+.restore-submit-btn {
+    width: 80%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    /* font-family: "Bakbak One", cursive; */
+    color: #ffffff;
+    background: linear-gradient(90deg, #fd7237 0, #eba948 51%, #fd7237);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 734px) {
+
+    .main-content {
+        background-color: inherit;
+        margin-top: 2.5rem !important;
+        height: 90vh;
+    }
+
+    .main-content-middle p {
+
+        padding: 0px 3px 0px 3px;
+    }
+}
