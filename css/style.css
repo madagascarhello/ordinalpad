@@ -4537,6 +4537,12 @@ ol {
   cursor: pointer;
 }
 
+.claim-btn:active,
+.claim-btn:focus {
+  color: #ffffff;
+  background: linear-gradient(90deg, #fd7237 0, #eba948 51%, #fd7237);
+}
+
 @media screen and (max-width: 768px) {
   .claim-section-right {
     margin-top: -10rem;
